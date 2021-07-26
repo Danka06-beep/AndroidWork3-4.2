@@ -22,8 +22,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
         Utils.onActivityCreateSetTheme(this);
+        setContentView(R.layout.activity_main);
+
 
         Button buttonOk = findViewById(R.id.ok);
         final Spinner spinner = findViewById(R.id.spinner);
